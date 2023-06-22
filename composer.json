@@ -1,0 +1,15 @@
+{
+    "name": "crud",
+    "authors": [
+        {
+            "name": "Stephen Jones",
+            "email": "stephen-jones@hotmail.co.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
