@@ -1,9 +1,4 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 10/11/2020
- * Time: 10:05 AM
- */
 
 namespace app;
 
@@ -11,7 +6,7 @@ namespace app;
 /**
  * Class Router
  *
- * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+ * @author  Stephen <stephen-jones@hotmail.co.uk>
  * @package app
  */
 class Router
@@ -59,8 +54,8 @@ class Router
             $$key = $value;
         }
         ob_start();
-        include __DIR__."/views/$view.php";
+        include __DIR__ . "/views/$view.php";
         $content = ob_get_clean();
-        include __DIR__."/views/_layout.php";
+        include __DIR__ . "/views/_layout.php";
     }
 }
